@@ -266,11 +266,12 @@ button {
 }
 
 .gallery .container {
-    display: block;
+    flex-wrap: wrap;
+    
 }
 
 .gallery .boxes {
-    margin: 50px;
+    margin: 0 auto;
 }
 
 
@@ -297,3 +298,26 @@ button {
 
     
     }
+
+
+@media (max-width: 722px) {
+
+    .gallery .container {
+        display: block;
+    }
+
+    .gallery .boxes {
+    margin: 50px auto;
+    }
+}
+
+
+@media (max-width: 555px) {
+    
+    .navbar li {
+        text-align: center;
+        
+     }
+    
+
+}
